@@ -22,5 +22,6 @@ for i in range(azanyi):
     except:
         driver.close()
         driver = webdriver.Chrome()
+        time.sleep(25)
         driver.get(link)
         
