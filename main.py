@@ -1,6 +1,13 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
+from art import *
 import time
+
+tprint("-------------")
+tprint("Magor Software")
+tprint("                NGL BOT")
+tprint("-------------")
+time.sleep(3)
 
 link = input("link:")
 be = input("message:")
